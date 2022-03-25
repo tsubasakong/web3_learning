@@ -13,3 +13,5 @@ Steps:
     - either diretly run in terminal `npx hardhat run ./scripts/deploy.ts --network truffle`'
     - or in the `package.json`, in the `scripts` section, add ` "deploy": "hardhat run ./scripts/deploy.ts --network truffle"`. Then run `yarn deploy`
     - [NOTE how `dotenv` works with `process.env.{ENVRAIBLES}`](https://dev.to/francis04j/how-to-add-env-and-use-process-env-to-your-typescript-project-3d6b),this author also proposed it's better to use `endpoints.config.ts` as more fexible and easy-to-test method
+    - [`hardhat.config.ts` example](https://github.com/paulrberg/solidity-template/blob/main/hardhat.config.ts) 
+    
